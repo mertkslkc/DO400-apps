@@ -1,10 +1,11 @@
 package com.redhat.shipping;
 
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 public class ShippingCalculatorTest {
 
-    // @todo: add tests
+	public int costForRegion(String name) {
+
+		if (name.equals("NA")) {
+	return 100;
+		}
+	}
 }
